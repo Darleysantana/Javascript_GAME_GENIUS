@@ -83,3 +83,10 @@ let gameOver = () => {
     clickedOrder = [];
     playGame();
 }
+
+//Inicio de Jogo
+let playGame = () => {
+    alert('Bem vindo ao Gênius! Iniciando novo Jogo!');
+    score = 0;
+    nextLevel();
+}
