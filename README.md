@@ -1,6 +1,7 @@
 # GAME GENIUS MEMORY :video_game:
 
-1. Adicionado o acender e apagar;
+1. 
+
 
 </br>
 </br>
