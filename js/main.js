@@ -83,17 +83,18 @@ let gameOver = () => {
     playGame();
 }
 
-//Inicio de Jogo
+//função do inicio de Jogo
 let playGame = () => {
     alert('Bem vindo ao Gênius! Iniciando novo Jogo!');
     score = 0;
     nextLevel();
 }
 
-//evento do jogo
-green.addEventListener('click', click(0));
-red.addEventListener('click', click(1));
-yellow.addEventListener('click', click(2));
-blue.addEventListener('click', click(3));
+//evento onclick do jogo
+green.onclick = () => click(0);
+red.onclick = () => click(1);
+yellow.onclick = () => click(2);
+blue.onclick = () => click(3);
 
+//inicio do jogo
 playGame();
