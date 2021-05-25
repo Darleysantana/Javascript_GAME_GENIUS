@@ -36,7 +36,7 @@ let ligthColor = (element, number) => {
 let checkOrder = () => {
     for(let i in clickedOrder) {
         if(clickedOrder[i] != order[i]){
-            lose();
+            gameOver();
             break;
         }
         if(clickedOrder.length == order.length){
@@ -74,4 +74,12 @@ let createColorElement = (color) => {
 let nextLevel = () => {
     score++;
     shuffleOrder();
+}
+
+//função para game over
+let gameOver = () => {
+    alert(`Pontuação: ${score}!\nVocê Perdeu o jogo!\nClick em Ok, para iniciar um novo jogo!`);
+    order = [];
+    clickedOrder = [];
+    playGame();
 }
