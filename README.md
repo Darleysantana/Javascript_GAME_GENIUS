@@ -2,6 +2,7 @@
 
 1. Click em Ok;
 2. Click seguindo as sequência de cores!;
+</br>
 E se divirta!
 </br>
 </br>
