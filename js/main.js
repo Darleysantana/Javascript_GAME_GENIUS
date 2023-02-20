@@ -7,10 +7,11 @@ var score = 0;
 //2 = yellow
 //3 = blue
 
-const blue = document.querySelector('blue');
-const red = document.querySelector('red');
-const green = document.querySelector('green');
-const yellow = document.querySelector('yellow');
+const blue = document.querySelector('.blue');
+const red = document.querySelector('.red');
+const green = document.querySelector('.green');
+const yellow = document.querySelector('.yellow');
+
 //Ordem aleátoria de cores
 let shuffleOrder = () => {
     let colorOrder = Math.floor(Math.random() * 4);
